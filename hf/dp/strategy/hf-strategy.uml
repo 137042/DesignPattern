@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hf.dp.strategy.FlyWithWings</OriginalElement>
+  <nodes>
+    <node x="-108.37929213346871" y="204.9533830571592">hf.dp.strategy.Squeak</node>
+    <node x="17.304106865971164" y="336.8028868969961">hf.dp.strategy.QuackBehavior</node>
+    <node x="-108.37929213346871" y="468.9261619781637">hf.dp.strategy.MiniDuckSimulator</node>
+    <node x="-108.37929213346868" y="21.629251240072797">hf.dp.strategy.FlyRocketPowered</node>
+    <node x="555.0478070275273" y="323.40039621873944">hf.dp.strategy.MallardDuck</node>
+    <node x="52.304106865971164" y="204.9533830571592">hf.dp.strategy.Quack</node>
+    <node x="263.88374346801686" y="313.0212190123843">hf.dp.strategy.Duck</node>
+    <node x="101.75222566727408" y="468.92616197816375">hf.dp.strategy.MuteQuack</node>
+    <node x="163.61019051616125" y="21.629251240072797">hf.dp.strategy.FlyBehavior</node>
+    <node x="361.48988097201806" y="21.629251240072797">hf.dp.strategy.FlyWithWings</node>
+    <node x="561.0478070275273" y="476.02121901238434">hf.dp.strategy.ModelDuck</node>
+    <node x="212.98750586541098" y="155.32523512622853">hf.dp.strategy.FlyNoWay</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="hf.dp.strategy.FlyWithWings" target="hf.dp.strategy.FlyBehavior" relationship="REALIZATION">
+      <point x="1.1902798195251307E-4" y="39.4997487599272" />
+      <point x="432.99" y="49.1292512400728" />
+      <point x="227.6098140915659" y="49.1292512400728" />
+      <point x="-3.764245953448153E-4" y="27.49988194996435" />
+    </edge>
+    <edge source="hf.dp.strategy.Quack" target="hf.dp.strategy.QuackBehavior" relationship="REALIZATION">
+      <point x="-26.691955544794013" y="28.324323551959083" />
+      <point x="83.61215132117715" y="221.0" />
+      <point x="92.8039163498099" y="221.0" />
+      <point x="-1.9051616126830595E-4" y="27.499710061178774" />
+    </edge>
+    <edge source="hf.dp.strategy.MallardDuck" target="hf.dp.strategy.Duck" relationship="GENERALIZATION">
+      <point x="-53.21095583012345" y="7.5977026405760455" />
+      <point x="574.8441064638783" y="370.4980988593155" />
+      <point x="574.8441064638783" y="370.4980988593155" />
+      <point x="106.81207402247753" y="-63.52312015306876" />
+    </edge>
+    <edge source="hf.dp.strategy.MuteQuack" target="hf.dp.strategy.QuackBehavior" relationship="REALIZATION">
+      <point x="6.442642592219272E-5" y="-39.50007987046615" />
+      <point x="166.2522900937" y="430.3645244375799" />
+      <point x="92.8039163498099" y="430.3645244375799" />
+      <point x="-1.9051616126830595E-4" y="27.499710061178774" />
+    </edge>
+    <edge source="hf.dp.strategy.ModelDuck" target="hf.dp.strategy.Duck" relationship="GENERALIZATION">
+      <point x="-63.999815297674445" y="-2.2503600166601245E-4" />
+      <point x="606.3740246724115" y="515.5209939763827" />
+      <point x="606.3740246724115" y="515.5212190123843" />
+      <point x="629.491904858131" y="515.5212190123843" />
+      <point x="629.491904858131" y="514.7642585551331" />
+      <point x="97.35199797685016" y="80.74303954274882" />
+    </edge>
+    <edge source="hf.dp.strategy.FlyRocketPowered" target="hf.dp.strategy.FlyBehavior" relationship="REALIZATION">
+      <point x="88.24431114487552" y="-5.114229277024279" />
+      <point x="178.90129657794677" y="56.01502196304852" />
+      <point x="178.90129657794677" y="39.39543726235739" />
+      <point x="-16.979011808936917" y="-9.733813977715407" />
+    </edge>
+    <edge source="hf.dp.strategy.FlyNoWay" target="hf.dp.strategy.FlyBehavior" relationship="REALIZATION">
+      <point x="1.9297247274607798E-4" y="-39.49984338707198" />
+      <point x="249.65399239543726" y="155.32539173915654" />
+      <point x="22.043801879276003" y="29.288999710497514" />
+    </edge>
+    <edge source="hf.dp.strategy.Squeak" target="hf.dp.strategy.QuackBehavior" relationship="REALIZATION">
+      <point x="2.61764144951826E-4" y="-39.499591024183104" />
+      <point x="-50.37903036932376" y="296.680608365019" />
+      <point x="-50.37929213346868" y="296.680608365019" />
+      <point x="-50.37929213346868" y="363.403041825095" />
+      <point x="-33.53414488878485" y="-0.8998450719010975" />
+    </edge>
+  </edges>
+  <settings layout="계층" zoom="0.8456591639871383" showDependencies="false" x="375.0" y="296.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>메서드</Category>
+    <Category>생성자</Category>
+    <Category>프로퍼티</Category>
+    <Category>필드</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

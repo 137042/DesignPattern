@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>add.observer.Observer</OriginalElement>
+  <nodes>
+    <node x="-112.1336781212049" y="367.5423486255937">add.observer.Main</node>
+    <node x="-108.13367812120487" y="140.3870899667006">add.observer.NumberGenerator</node>
+    <node x="-112.1336781212049" y="28.604670263611837">add.observer.GraphObserver</node>
+    <node x="180.72210291614158" y="185.38708996670061">add.observer.RandomNumberGenerator</node>
+    <node x="184.22210291614158" y="367.5423486255937">add.observer.DigitObserver</node>
+    <node x="184.22210291614158" y="40.60467026361184">add.observer.Observer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="add.observer.GraphObserver" target="add.observer.Observer" relationship="REALIZATION">
+      <point x="59.39983781702236" y="4.556926694563046" />
+      <point x="85.97908745247148" y="72.66159695817488" />
+      <point x="85.97908745247148" y="72.90214501773747" />
+      <point x="201.847633178751" y="72.90214501773747" />
+      <point x="-92.87446973739057" y="9.594949508251247" />
+    </edge>
+    <edge source="add.observer.RandomNumberGenerator" target="add.observer.NumberGenerator" relationship="GENERALIZATION">
+      <point x="-106.5" y="-63.5" />
+      <point x="188.22210291614158" y="238.19665845964522" />
+      <point x="42.083960045562776" y="238.19665845964522" />
+      <point x="41.71763816676764" y="86.0" />
+    </edge>
+    <edge source="add.observer.DigitObserver" target="add.observer.Observer" relationship="REALIZATION">
+      <point x="104.13596917648078" y="-8.141048600499005" />
+      <point x="462.4704947018462" y="398.9013000250947" />
+      <point x="462.4704947018462" y="68.10467026361184" />
+      <point x="430.57984790874525" y="68.10467026361184" />
+      <point x="430.57984790874525" y="68.63117870722431" />
+      <point x="64.31782103823105" y="0.526508443612471" />
+    </edge>
+  </edges>
+  <settings layout="계층" zoom="0.9924528301886792" showDependencies="false" x="287.5" y="249.99999999999997" />
+  <SelectedNodes />
+  <Categories>
+    <Category>메서드</Category>
+    <Category>생성자</Category>
+    <Category>프로퍼티</Category>
+    <Category>필드</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
