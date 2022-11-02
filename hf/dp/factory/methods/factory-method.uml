@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hf.dp.factory.methods.PizzaStore</OriginalElement>
+  <nodes>
+    <node x="514.0808129531365" y="355.98920851167196">hf.dp.factory.methods.SimplePizzaFactory</node>
+    <node x="-26.782496389936554" y="4.064088547187566">hf.dp.factory.methods.ClamPizza</node>
+    <node x="370.74978184735266" y="239.17973649495423">hf.dp.factory.methods.CheesePizza</node>
+    <node x="-26.782496389936554" y="180.02713831262085">hf.dp.factory.methods.VeggiePizza</node>
+    <node x="209.14025487875978" y="355.98920851167196">hf.dp.factory.methods.PizzaStore</node>
+    <node x="538.0808129531365" y="163.03350502650937">hf.dp.factory.methods.PepperoniPizza</node>
+    <node x="250.14025487875978" y="-55.03315905695575">hf.dp.factory.methods.Pizza</node>
+    <node x="-26.782496389936554" y="355.98920851167196">hf.dp.factory.methods.PizzaTestDrive</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="hf.dp.factory.methods.PepperoniPizza" target="hf.dp.factory.methods.Pizza" relationship="GENERALIZATION">
+      <point x="-76.49981295313648" y="-1.32402935207665E-4" />
+      <point x="366.41825095057027" y="190.53337262357417" />
+      <point x="48.77799607181049" y="107.96661913300142" />
+    </edge>
+    <edge source="hf.dp.factory.methods.VeggiePizza" target="hf.dp.factory.methods.Pizza" relationship="GENERALIZATION">
+      <point x="65.50045544603051" y="-4.897831910852801E-4" />
+      <point x="273.78754752851705" y="207.52664852942976" />
+      <point x="-43.852707350242724" y="100.13867236494059" />
+    </edge>
+    <edge source="hf.dp.factory.methods.CheesePizza" target="hf.dp.factory.methods.Pizza" relationship="GENERALIZATION">
+      <point x="-66.99996815913983" y="-2.3079153214666803E-4" />
+      <point x="316.8412547528517" y="266.6795057034221" />
+      <point x="-0.7990001259080941" y="59.69428072995959" />
+    </edge>
+    <edge source="hf.dp.factory.methods.ClamPizza" target="hf.dp.factory.methods.Pizza" relationship="GENERALIZATION">
+      <point x="4.963899365577618E-4" y="-27.499620866579164" />
+      <point x="32.218" y="145.5734315589354" />
+      <point x="315.53659695817487" y="145.5734315589354" />
+      <point x="-2.103657920584908" y="15.3359157109482" />
+    </edge>
+  </edges>
+  <settings layout="계층" zoom="0.7664845173041894" showDependencies="false" x="276.3968631178707" y="239.40826996197723" />
+  <SelectedNodes />
+  <Categories>
+    <Category>내부 클래스</Category>
+    <Category>메서드</Category>
+    <Category>생성자</Category>
+    <Category>프로퍼티</Category>
+    <Category>필드</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

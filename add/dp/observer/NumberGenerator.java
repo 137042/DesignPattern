@@ -3,33 +3,26 @@ package add.dp.observer;
 import java.util.Vector;
 import java.util.Iterator;
 
-
 public abstract class NumberGenerator {
 	
-	private Vector observers = new Vector(); 
+	private Vector observers = new Vector();
 
-	
 	public void addObserver(Observer observer) { 
 		observers.add(observer);
 	}
 
-	
-	public void deleteObserver(Observer observer) { 
+	public void deleteObserver(Observer observer) {
 		observers.remove(observer);
 	}
 
-	
-	
-	public void notifyObservers() { 
-		Iterator it = observers.iterator();
-		
-		while (it.hasNext()) {
-			Observer o = (Observer) it.next();
+	public void notifyObservers() {
+		for (Object observer : observers) {
+			Observer o = (Observer) observer;
 			o.update(this);
 		}
 	}
 
-	public abstract int getNumber(); 
+	public abstract int getNumber();
+	public abstract void execute();
 
-	public abstract void execute(); 
 }

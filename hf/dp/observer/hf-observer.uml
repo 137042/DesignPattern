@@ -3,14 +3,14 @@
   <ID>JAVA</ID>
   <OriginalElement>hf.dp.observer.WeatherStation</OriginalElement>
   <nodes>
-    <node x="242.64290880761536" y="352.33791181393474">hf.dp.observer.Observer</node>
-    <node x="-54.814208631383565" y="-69.30973892914164">hf.dp.observer.CurrentConditionDisplay</node>
     <node x="615.6217617184076" y="130.7355183352868">hf.dp.observer.Subject</node>
-    <node x="-54.814208631383565" y="421.78077559971524">hf.dp.observer.WeatherStation</node>
-    <node x="254.7285707313406" y="-60.09626832463334">hf.dp.observer.DisplayElement</node>
-    <node x="239.14290880761536" y="131.4141242850664">hf.dp.observer.StatisticsDisplay</node>
-    <node x="572.6217617184076" y="329.78077559971524">hf.dp.observer.WeatherData</node>
+    <node x="242.64290880761536" y="352.33791181393474">hf.dp.observer.Observer</node>
     <node x="487.2713500940648" y="-69.30973892914164">hf.dp.observer.ForecastDisplay</node>
+    <node x="572.6217617184076" y="329.78077559971524">hf.dp.observer.WeatherData</node>
+    <node x="-54.814208631383565" y="421.78077559971524">hf.dp.observer.WeatherStation</node>
+    <node x="-54.814208631383565" y="-69.30973892914164">hf.dp.observer.CurrentConditionDisplay</node>
+    <node x="239.14290880761536" y="131.4141242850664">hf.dp.observer.StatisticsDisplay</node>
+    <node x="254.7285707313406" y="-60.09626832463334">hf.dp.observer.DisplayElement</node>
   </nodes>
   <notes />
   <edges>
@@ -40,16 +40,16 @@
       <point x="331.2281237028528" y="-32.59626832463334" />
       <point x="-4.470284877982067E-4" y="27.49973892914165" />
     </edge>
+    <edge source="hf.dp.observer.ForecastDisplay" target="hf.dp.observer.Observer" relationship="REALIZATION">
+      <point x="-60.75633854672071" y="35.20927703537721" />
+      <point x="533.5150115473441" y="358.9509896093858" />
+      <point x="-104.49989797706803" y="-20.88692220454898" />
+    </edge>
     <edge source="hf.dp.observer.WeatherData" target="hf.dp.observer.Subject" relationship="REALIZATION">
       <point x="22.593018882054253" y="-52.01172248193234" />
       <point x="728.7147806004618" y="267.9809508037705" />
       <point x="728.2157005563178" y="267.9809508037705" />
       <point x="0.5939388379101729" y="50.5" />
-    </edge>
-    <edge source="hf.dp.observer.ForecastDisplay" target="hf.dp.observer.Observer" relationship="REALIZATION">
-      <point x="-60.75633854672071" y="35.20927703537721" />
-      <point x="533.5150115473441" y="358.9509896093858" />
-      <point x="-104.49989797706803" y="-20.88692220454898" />
     </edge>
     <edge source="hf.dp.observer.StatisticsDisplay" target="hf.dp.observer.DisplayElement" relationship="REALIZATION">
       <point x="13.187345233955114" y="-30.489182021786974" />
@@ -58,9 +58,12 @@
       <point x="29.961349738255763" y="39.222134375441655" />
     </edge>
   </edges>
-  <settings layout="계층" zoom="0.6813532651455547" showDependencies="false" x="783.7523094688221" y="261.99999999999994" />
-  <SelectedNodes />
+  <settings layout="계층" zoom="0.6813532651455547" showDependencies="false" x="1031.3019630484987" y="295.75635103926095" />
+  <SelectedNodes>
+    <node>hf.dp.observer.WeatherStation</node>
+  </SelectedNodes>
   <Categories>
+    <Category>내부 클래스</Category>
     <Category>메서드</Category>
     <Category>생성자</Category>
     <Category>프로퍼티</Category>

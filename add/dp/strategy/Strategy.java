@@ -1,13 +1,8 @@
 package add.dp.strategy;
 
 public interface Strategy {
-	
-	
-	
-	public abstract Hand nextHand(); 
 
-	
-	
-	
-	public abstract void study(boolean win);
+	Hand nextHand();
+	void study(boolean win);
+
 }

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hf.dp.decorator.HouseBlend</OriginalElement>
+  <nodes>
+    <node x="3.656117242491078" y="478.18843005641435">hf.dp.decorator.Soy</node>
+    <node x="261.2609142833951" y="41.102952122076374">hf.dp.decorator.Espresso</node>
+    <node x="87.92445946288947" y="41.102952122076374">hf.dp.decorator.HouseBlend</node>
+    <node x="396.40747062879626" y="478.18843005641435">hf.dp.decorator.Whip</node>
+    <node x="235.7609142833951" y="161.86531021145987">hf.dp.decorator.Beverage</node>
+    <node x="423.59736910390075" y="41.10295212207638">hf.dp.decorator.DarkRoast</node>
+    <node x="200.03179393564366" y="478.18843005641435">hf.dp.decorator.Milk</node>
+    <node x="225.76091428339507" y="329.62766830084337">hf.dp.decorator.CondimentDecorator</node>
+    <node x="614.783147321949" y="233.39896874927393">hf.dp.decorator.CoffeeShop</node>
+    <node x="592.783147321949" y="478.18843005641435">hf.dp.decorator.Mocha</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="hf.dp.decorator.DarkRoast" target="hf.dp.decorator.Beverage" relationship="GENERALIZATION">
+      <point x="16.201101075227257" y="37.02034001275544" />
+      <point x="500.298470179128" y="224.86541782250464" />
+      <point x="85.99955091295683" y="1.0761104477907679E-4" />
+    </edge>
+    <edge source="hf.dp.decorator.Soy" target="hf.dp.decorator.CondimentDecorator" relationship="GENERALIZATION">
+      <point x="-6.288830140140092" y="-49.883497320988454" />
+      <point x="96.64615705750788" y="479.30493273542584" />
+      <point x="96.64615705750788" y="390.1210762331839" />
+      <point x="-99.55015195155653" y="8.993407932340517" />
+    </edge>
+    <edge source="hf.dp.decorator.Whip" target="hf.dp.decorator.CondimentDecorator" relationship="GENERALIZATION">
+      <point x="-4.730776255996716E-4" y="-51.00031579270694" />
+      <point x="482.40699755117066" y="407.3497757847534" />
+      <point x="89.96554311570804" y="26.22210748391001" />
+    </edge>
+    <edge source="hf.dp.decorator.CondimentDecorator" target="hf.dp.decorator.Beverage" relationship="GENERALIZATION">
+      <point x="1.8452030900562022E-5" y="-51.49986561026046" />
+      <point x="321.76093273542597" y="172.2421524663677" />
+      <point x="331.7609142833951" y="172.2421524663677" />
+      <point x="331.7609142833951" y="224.86541782250464" />
+      <point x="85.99955091295683" y="1.0761104477907679E-4" />
+    </edge>
+    <edge source="hf.dp.decorator.Milk" target="hf.dp.decorator.CondimentDecorator" relationship="GENERALIZATION">
+      <point x="4.25902133343925E-4" y="-50.99977739495233" />
+      <point x="286.032219837777" y="390.1210762331839" />
+      <point x="-26.581542086085676" y="8.993407932340517" />
+    </edge>
+    <edge source="hf.dp.decorator.Mocha" target="hf.dp.decorator.CondimentDecorator" relationship="GENERALIZATION">
+      <point x="-41.057115824979064" y="-54.95076189497945" />
+      <point x="637.7260314969699" y="369.8520179372197" />
+      <point x="3.8220453578604747" y="-11.27565036362364" />
+    </edge>
+    <edge source="hf.dp.decorator.HouseBlend" target="hf.dp.decorator.Beverage" relationship="GENERALIZATION">
+      <point x="-18.87064780369664" y="34.99343418315901" />
+      <point x="135.05381165919283" y="224.86541782250464" />
+      <point x="85.99955091295683" y="1.0761104477907679E-4" />
+    </edge>
+    <edge source="hf.dp.decorator.Espresso" target="hf.dp.decorator.Beverage" relationship="GENERALIZATION">
+      <point x="3.8006730864026395E-4" y="39.49957480655311" />
+      <point x="321.76129435070374" y="224.86541782250464" />
+      <point x="85.99955091295683" y="1.0761104477907679E-4" />
+    </edge>
+  </edges>
+  <settings layout="계층" zoom="0.9867256637168141" showDependencies="false" x="520.6726457399103" y="301.53811659192826" />
+  <SelectedNodes />
+  <Categories>
+    <Category>내부 클래스</Category>
+    <Category>메서드</Category>
+    <Category>생성자</Category>
+    <Category>필드</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

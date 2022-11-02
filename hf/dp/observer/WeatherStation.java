@@ -1,8 +1,12 @@
 package hf.dp.observer;
 
+import hf.MyHWInfo;
+
 public class WeatherStation {
 
     public static void main(String[] args){
+        MyHWInfo.printInfo();
+
         WeatherData weatherData = new WeatherData();
 
         CurrentConditionDisplay currentDisplay =

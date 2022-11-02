@@ -1,8 +1,12 @@
 package add.dp.observer;
 
+import add.MyHWInfo;
+
 public class Main {
 
 	public static void main(String[] args) {
+		MyHWInfo.printInfo();
+
 		NumberGenerator generator = new RandomNumberGenerator();
 
 		Observer observer1 = new DigitObserver();
@@ -13,4 +17,5 @@ public class Main {
 
 		generator.execute();
 	}
+
 }

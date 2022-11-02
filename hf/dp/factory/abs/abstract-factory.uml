@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hf.dp.factory.abs.PizzaIngredientFactory</OriginalElement>
+  <nodes>
+    <node x="341.5" y="178.41754244139042">hf.dp.factory.abs.Cheese</node>
+    <node x="341.5" y="-284.0">hf.dp.factory.abs.PizzaIngredientFactory</node>
+    <node x="931.0052546483428" y="-284.0">hf.dp.factory.abs.ChicagoPizzaStore</node>
+    <node x="-28.719482619240097" y="-284.0">hf.dp.factory.abs.ChicagoPizzaIngredientFactory</node>
+    <node x="653.7194826192399" y="290.33508488278085">hf.dp.factory.abs.SlicedPepperoni</node>
+    <node x="931.0052546483428" y="-128.41188358932914">hf.dp.factory.abs.PizzaStore</node>
+    <node x="662.7194826192401" y="-45.417542441390424">hf.dp.factory.abs.ThinCrustDough</node>
+    <node x="931.0052546483428" y="215.95836701697647">hf.dp.factory.abs.PizzaTestDrive</node>
+    <node x="-28.719482619240125" y="-34.45432497978982">hf.dp.factory.abs.Pizza</node>
+    <node x="341.5" y="66.5">hf.dp.factory.abs.Clams</node>
+    <node x="341.5" y="290.33508488278085">hf.dp.factory.abs.Pepperoni</node>
+    <node x="662.7194826192401" y="66.5">hf.dp.factory.abs.FreshClams</node>
+    <node x="931.0052546483428" y="50.17623282134173">hf.dp.factory.abs.NYPizzaStore</node>
+    <node x="662.7194826192401" y="-284.0">hf.dp.factory.abs.NYPizzaIngredientFactory</node>
+    <node x="341.5" y="402.25262732417127">hf.dp.factory.abs.Veggies</node>
+    <node x="653.7194826192399" y="514.1701697655617">hf.dp.factory.abs.PlumTomatoSauce</node>
+    <node x="341.5" y="514.1701697655617">hf.dp.factory.abs.Sauce</node>
+    <node x="653.7194826192399" y="402.25262732417127">hf.dp.factory.abs.BlackOlives</node>
+    <node x="653.7194826192401" y="178.41754244139042">hf.dp.factory.abs.MozzarellaCheese</node>
+    <node x="-28.71948261924001" y="238.09135004042037">hf.dp.factory.abs.CheesePizza</node>
+    <node x="341.5" y="-45.417542441390424">hf.dp.factory.abs.Dough</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="hf.dp.factory.abs.PlumTomatoSauce" target="hf.dp.factory.abs.Sauce" relationship="REALIZATION">
+      <point x="-87.5" y="-0.0" />
+      <point x="565.10974130962" y="553.6701697655617" />
+      <point x="565.10974130962" y="541.6701697655617" />
+      <point x="67.5" y="-0.0" />
+    </edge>
+    <edge source="hf.dp.factory.abs.ChicagoPizzaStore" target="hf.dp.factory.abs.PizzaStore" relationship="GENERALIZATION">
+      <point x="88.5" y="-0.0" />
+      <point x="1019.5052546483428" y="-244.5" />
+      <point x="1019.5052546483428" y="-77.41188358932914" />
+      <point x="-88.5" y="-0.0" />
+    </edge>
+    <edge source="hf.dp.factory.abs.CheesePizza" target="hf.dp.factory.abs.Pizza" relationship="GENERALIZATION">
+      <point x="123.0" y="-0.0" />
+      <point x="259.8581244947452" y="277.59135004042037" />
+      <point x="259.8581244947452" y="74.04567502021018" />
+      <point x="-82.0" y="-0.0" />
+    </edge>
+    <edge source="hf.dp.factory.abs.ChicagoPizzaIngredientFactory" target="hf.dp.factory.abs.PizzaIngredientFactory" relationship="REALIZATION">
+      <point x="0.0" y="97.0" />
+      <point x="98.2805173807599" y="-157.56184316895713" />
+      <point x="392.75" y="-157.56184316895713" />
+      <point x="-51.25" y="85.0" />
+    </edge>
+    <edge source="hf.dp.factory.abs.SlicedPepperoni" target="hf.dp.factory.abs.Pepperoni" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="732.7194826192399" y="317.83508488278085" />
+      <point x="409.0" y="317.83508488278085" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="hf.dp.factory.abs.ThinCrustDough" target="hf.dp.factory.abs.Dough" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="743.7194826192401" y="-17.917542441390424" />
+      <point x="409.0" y="-17.917542441390424" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="hf.dp.factory.abs.NYPizzaIngredientFactory" target="hf.dp.factory.abs.PizzaIngredientFactory" relationship="REALIZATION">
+      <point x="0.0" y="97.0" />
+      <point x="773.2194826192401" y="-199.0" />
+      <point x="495.25" y="-199.0" />
+      <point x="51.25" y="85.0" />
+    </edge>
+    <edge source="hf.dp.factory.abs.FreshClams" target="hf.dp.factory.abs.Clams" relationship="REALIZATION">
+      <point x="0.0" y="39.5" />
+      <point x="730.2194826192401" y="94.0" />
+      <point x="409.0" y="94.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="hf.dp.factory.abs.MozzarellaCheese" target="hf.dp.factory.abs.Cheese" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="739.2194826192401" y="205.91754244139042" />
+      <point x="409.0" y="205.91754244139042" />
+      <point x="0.0" y="-27.5" />
+    </edge>
+    <edge source="hf.dp.factory.abs.NYPizzaStore" target="hf.dp.factory.abs.PizzaStore" relationship="GENERALIZATION">
+      <point x="-88.5" y="-0.0" />
+      <point x="1019.5052546483428" y="89.67623282134173" />
+      <point x="1019.5052546483428" y="-77.41188358932914" />
+      <point x="88.5" y="-0.0" />
+    </edge>
+    <edge source="hf.dp.factory.abs.BlackOlives" target="hf.dp.factory.abs.Veggies" relationship="REALIZATION">
+      <point x="-20.201697655618432" y="10.436540016168237" />
+      <point x="565.10974130962" y="452.1891673403395" />
+      <point x="565.10974130962" y="425.842360549717" />
+      <point x="8.282942603071774" y="-3.9102667744542714" />
+    </edge>
+  </edges>
+  <settings layout="계층" zoom="0.4934184284004786" showDependencies="false" x="1117.5" y="205.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>내부 클래스</Category>
+    <Category>메서드</Category>
+    <Category>생성자</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -2,19 +2,14 @@ package add.dp.observer;
 
 import java.util.Random;
 
-
 public class RandomNumberGenerator extends NumberGenerator {
 	
 	private Random random = new Random(); 
+	private int number;
 
-	private int number; 
-
-	public int getNumber() { 
+	public int getNumber() {
 		return number; 
 	}
-
-	
-	
 	
 	public void execute() {
 		for (int i = 0; i < 20; i++) {
@@ -22,4 +17,5 @@ public class RandomNumberGenerator extends NumberGenerator {
 			notifyObservers(); 
 		}
 	}
+
 }

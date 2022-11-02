@@ -1,11 +1,15 @@
 package add.dp.strategy;
 
+import add.MyHWInfo;
+
 public class Main {
 
 	public static void main(String[] args) {
+		MyHWInfo.printInfo();
+
 		if (args.length != 2) {
-			System.out.println("Usage: java oopPractice.Main randomseed1 randomseed2");
-			System.out.println("Example: java oopPractice.Main 314 15");
+			System.out.println("Usage: java Main randomseed1 randomseed2");
+			System.out.println("Example: java Main 314 15");
 			System.exit(0);
 		}
 		
@@ -35,7 +39,7 @@ public class Main {
 
 		System.out.println("Total result:");
 		System.out.println("" + player1);
-		
 		System.out.println("" + player2);
 	}
+
 }

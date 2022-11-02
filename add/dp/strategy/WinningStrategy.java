@@ -3,6 +3,7 @@ package add.dp.strategy;
 import java.util.Random;
 
 public class WinningStrategy implements Strategy {
+
     private Random random;  
     
     private boolean won = false;
@@ -22,4 +23,5 @@ public class WinningStrategy implements Strategy {
     public void study(boolean win) {
         won = win; 
     }
+
 }

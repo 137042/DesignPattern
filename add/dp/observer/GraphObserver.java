@@ -13,7 +13,8 @@ public class GraphObserver implements Observer {
 		System.out.println("");
 		try {
 			Thread.sleep(100); 
-		} catch (InterruptedException e) {
+		} catch (InterruptedException ignored) {
 		}
 	}
+
 }

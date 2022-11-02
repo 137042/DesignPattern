@@ -23,4 +23,5 @@ public class MyHWInfo {
 		System.out.println("USER: " + System.getProperty("user.name"));
 		System.out.println("===========================================\n");
 	}
+
 }
