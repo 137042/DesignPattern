@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hf.dp.facade.DvdPlayer</OriginalElement>
+  <nodes>
+    <node x="517.0" y="-749.3449612403101">hf.dp.facade.HomeTheaterTestDrive</node>
+    <node x="-61.0" y="-490.0329457364346">hf.dp.facade.TheaterLights</node>
+    <node x="579.0" y="-490.0329457364346">hf.dp.facade.Screen</node>
+    <node x="-61.0" y="-392.4651162790704">hf.dp.facade.PopcornPopper</node>
+    <node x="-229.0" y="-490.0329457364345">hf.dp.facade.Amplifier</node>
+    <node x="-287.0" y="-621.4680232558144">hf.dp.facade.Projector</node>
+    <node x="-279.0" y="-798.9031007751942">hf.dp.facade.CdPlayer</node>
+    <node x="371.0" y="-490.0329457364346">hf.dp.facade.Tuner</node>
+    <node x="31.00000000000003" y="-841.8449612403101">hf.dp.facade.HomeTheaterFacade</node>
+    <node x="139.0" y="-490.0329457364346">hf.dp.facade.DvdPlayer</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="계층" zoom="0.7950693374422187" showDependencies="false" x="282.00000000000006" y="-542.2112403100775" />
+  <SelectedNodes />
+  <Categories>
+    <Category>생성자</Category>
+    <Category>필드</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

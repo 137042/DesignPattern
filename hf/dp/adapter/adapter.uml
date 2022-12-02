@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hf.dp.adapter.Duck</OriginalElement>
+  <nodes>
+    <node x="-335.5916500264067" y="219.83498479131416">hf.dp.adapter.WildTurkey</node>
+    <node x="-335.5916500264067" y="43.37392403742615">hf.dp.adapter.MallardDuck</node>
+    <node x="-84.43626724465173" y="43.37392403742615">hf.dp.adapter.Duck</node>
+    <node x="138.26525366789588" y="219.83498479131416">hf.dp.adapter.DuckTestDrive</node>
+    <node x="138.26525366789585" y="43.37392403742615">hf.dp.adapter.TurkeyAdapter</node>
+    <node x="-87.93626724465173" y="243.83498479131416">hf.dp.adapter.Turkey</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="hf.dp.adapter.TurkeyAdapter" target="hf.dp.adapter.Duck" relationship="REALIZATION">
+      <point x="-81.56753503671723" y="-31.849209208528833" />
+      <point x="123.0266159695818" y="74.52471482889732" />
+      <point x="123.0266159695818" y="98.34855897688797" />
+      <point x="21.543726235741445" y="98.34855897688797" />
+      <point x="47.979993480393176" y="-16.050730121076327" />
+    </edge>
+    <edge source="hf.dp.adapter.WildTurkey" target="hf.dp.adapter.Turkey" relationship="REALIZATION">
+      <point x="58.08404546366904" y="-11.131562738082266" />
+      <point x="-139.2989592172375" y="259.70342205323186" />
+      <point x="-139.2989592172375" y="276.9695817490494" />
+      <point x="-45.15404662708562" y="-5.865403042264745" />
+    </edge>
+    <edge source="hf.dp.adapter.MallardDuck" target="hf.dp.adapter.Duck" relationship="REALIZATION">
+      <point x="65.116364855304" y="17.013908662193586" />
+      <point x="-146.18545747168525" y="111.38783269961974" />
+      <point x="-146.18545747168525" y="86.74904942965776" />
+      <point x="-55.236736557629655" y="4.37512539223161" />
+    </edge>
+  </edges>
+  <settings layout="계층" zoom="0.9494584837545126" showDependencies="false" x="122.5" y="262.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>메서드</Category>
+    <Category>생성자</Category>
+    <Category>필드</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

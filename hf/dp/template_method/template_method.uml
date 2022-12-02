@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hf.dp.template_pattern.Coffee</OriginalElement>
+  <nodes>
+    <node x="314.72471324296146" y="-18.85818561001031">hf.dp.template_pattern.BeverageTestDrive</node>
+    <node x="13.802398331595413" y="-133.8581856100103">hf.dp.template_pattern.CaffeineBeverage</node>
+    <node x="689.4327424400417" y="-395.9791449426486">hf.dp.template_pattern.TeaWithHook</node>
+    <node x="377.71637122002085" y="-395.9791449426486">hf.dp.template_pattern.CoffeeWithHook</node>
+    <node x="538.6470281543275" y="-133.8581856100103">hf.dp.template_pattern.CaffeineBeverageWithHook</node>
+    <node x="-51.0" y="-395.9791449426486">hf.dp.template_pattern.Tea</node>
+    <node x="149.0" y="-395.9791449426486">hf.dp.template_pattern.Coffee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="hf.dp.template_pattern.CoffeeWithHook" target="hf.dp.template_pattern.CaffeineBeverageWithHook" relationship="GENERALIZATION">
+      <point x="-74.8232533889468" y="63.980709071949946" />
+      <point x="429.39311783107405" y="-74.98123044838371" />
+      <point x="601.8970281543275" y="-74.98123044838371" />
+      <point x="-63.25" y="-97.0" />
+    </edge>
+    <edge source="hf.dp.template_pattern.Tea" target="hf.dp.template_pattern.CaffeineBeverage" relationship="GENERALIZATION">
+      <point x="0.0" y="51.0" />
+      <point x="34.0" y="-213.91866527632945" />
+      <point x="72.62148070907196" y="-213.91866527632945" />
+      <point x="-67.68091762252345" y="-90.9051094890512" />
+    </edge>
+    <edge source="hf.dp.template_pattern.Coffee" target="hf.dp.template_pattern.CaffeineBeverage" relationship="GENERALIZATION">
+      <point x="15.205422314911345" y="44.2356621480709" />
+      <point x="249.20542231491135" y="-201.64025026068816" />
+      <point x="209.5641293013556" y="-201.64025026068816" />
+      <point x="69.26173096976018" y="-90.9051094890512" />
+    </edge>
+    <edge source="hf.dp.template_pattern.TeaWithHook" target="hf.dp.template_pattern.CaffeineBeverageWithHook" relationship="GENERALIZATION">
+      <point x="51.3164754953076" y="17.13190823774761" />
+      <point x="867.2492179353493" y="-93.52763295099066" />
+      <point x="124.62148070907188" y="-56.669447340980355" />
+    </edge>
+  </edges>
+  <settings layout="계층" zoom="0.6937210648148149" showDependencies="false" x="551.1999999999999" y="-64.8850886339938" />
+  <SelectedNodes />
+  <Categories>
+    <Category>메서드</Category>
+    <Category>생성자</Category>
+    <Category>프로퍼티</Category>
+    <Category>필드</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
