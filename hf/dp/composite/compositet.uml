@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hf.dp.composite.MenuComponent</OriginalElement>
+  <nodes>
+    <node x="-246.7410229329509" y="305.1804162128779">hf.dp.composite.MenuItem</node>
+    <node x="155.84069730853287" y="490.18041621287784">hf.dp.composite.NullIterator</node>
+    <node x="304.27819730853287" y="-61.9878264349006">hf.dp.composite.MenuComponent</node>
+    <node x="207.40319730853287" y="305.1804162128779">hf.dp.composite.CompositeIterator</node>
+    <node x="454.41942868659737" y="305.1804162128779">hf.dp.composite.Waitress</node>
+    <node x="-246.7410229329509" y="-61.9878264349006">hf.dp.composite.Menu</node>
+    <node x="476.4194286865973" y="513.1804162128778">hf.dp.composite.MenuTestDrive</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="hf.dp.composite.MenuItem" target="hf.dp.composite.MenuComponent" relationship="GENERALIZATION">
+      <point x="86.4995229329509" y="8.378712207957051E-5" />
+      <point x="22.12925" y="436.6805" />
+      <point x="22.12925" y="436.6804162128779" />
+      <point x="90.83108718779098" y="436.6804162128779" />
+      <point x="90.83108718779098" y="126.37499999999997" />
+      <point x="-137.27819730853287" y="68.86282643490057" />
+    </edge>
+    <edge source="hf.dp.composite.Menu" target="hf.dp.composite.MenuComponent" relationship="GENERALIZATION">
+      <point x="64.49102293295095" y="-32.63717356509943" />
+      <point x="-52.99999999999994" y="48.37499999999997" />
+      <point x="-52.99999999999994" y="10.75" />
+      <point x="-134.97164003519816" y="-46.7621735650994" />
+    </edge>
+  </edges>
+  <settings layout="계층" zoom="0.6400000000000001" showDependencies="false" x="274.34375" y="299.93749999999994" />
+  <SelectedNodes />
+  <Categories>
+    <Category>메서드</Category>
+    <Category>필드</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

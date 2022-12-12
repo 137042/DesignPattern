@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hf.dp.iterator.MenuTestDrive</OriginalElement>
+  <nodes>
+    <node x="232.1093002429909" y="149.617440429798">hf.dp.iterator.Menu</node>
+    <node x="291.23828398952486" y="-14.944045569668887">hf.dp.iterator.Iterator</node>
+    <node x="556.9193911735007" y="438.05134704080206">hf.dp.iterator.MenuTestDrive</node>
+    <node x="306.1093002429909" y="385.55134704080206">hf.dp.iterator.MenuItem</node>
+    <node x="-117.9558827873405" y="236.00619560965015">hf.dp.iterator.PancakeHouseMenu</node>
+    <node x="548.6693911735007" y="236.00619560965015">hf.dp.iterator.DinerMenu</node>
+    <node x="-117.9558827873405" y="-14.944045569668887">hf.dp.iterator.DinerMenuIterator</node>
+    <node x="548.9188748093909" y="-12.123441021860891">hf.dp.iterator.PancakeHouseMenuIterator</node>
+    <node x="-117.9558827873405" y="431.55134704080206">hf.dp.iterator.Waitress</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="hf.dp.iterator.PancakeHouseMenuIterator" target="hf.dp.iterator.Iterator" relationship="REALIZATION">
+      <point x="-109.9188748093909" y="6.1234410218608915" />
+      <point x="502.5" y="56.5" />
+      <point x="502.5" y="32.75" />
+      <point x="77.26171601047514" y="8.694045569668887" />
+    </edge>
+    <edge source="hf.dp.iterator.PancakeHouseMenu" target="hf.dp.iterator.Menu" relationship="REALIZATION">
+      <point x="-1.1721265950370707E-4" y="-51.00019560965015" />
+      <point x="30.043999999999997" y="173.03107501999062" />
+      <point x="-111.35930024299091" y="-4.086365409807371" />
+    </edge>
+    <edge source="hf.dp.iterator.DinerMenu" target="hf.dp.iterator.Menu" relationship="REALIZATION">
+      <point x="0.830608826499315" y="-71.00619560965015" />
+      <point x="697.5" y="174.28107501999062" />
+      <point x="123.64069975700909" y="-2.836365409807371" />
+    </edge>
+    <edge source="hf.dp.iterator.DinerMenuIterator" target="hf.dp.iterator.Iterator" relationship="REALIZATION">
+      <point x="88.00008088894738" y="16.640867538141293" />
+      <point x="174.64120060109218" y="64.1968219684724" />
+      <point x="174.64120060109218" y="26.5" />
+      <point x="-72.73828398952486" y="2.444045569668887" />
+    </edge>
+  </edges>
+  <settings layout="계층" zoom="0.8" showDependencies="false" x="371.875" y="292.75" />
+  <SelectedNodes />
+  <Categories>
+    <Category>메서드</Category>
+    <Category>필드</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
