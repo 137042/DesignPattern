@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hf.dp.proxy.protection.OwnerInvocationHandler</OriginalElement>
+  <nodes>
+    <node x="-20.384294015034385" y="21.95535652790153">hf.dp.proxy.protection.PersonBean</node>
+    <node x="301.6432366775122" y="21.95535652790153">hf.dp.proxy.protection.NonOwnerInvocationHandler</node>
+    <node x="-318.66182470758093" y="151.75416874050075">hf.dp.proxy.protection.PersonBeanImpl</node>
+    <node x="-20.384294015034413" y="289.75416874050075">hf.dp.proxy.protection.MatchMakingTestDrive</node>
+    <node x="301.64323667751216" y="158.95535652790153">hf.dp.proxy.protection.OwnerInvocationHandler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="hf.dp.proxy.protection.PersonBeanImpl" target="hf.dp.proxy.protection.PersonBean" relationship="REALIZATION">
+      <point x="-0.3381752924190664" y="-132.75416874050075" />
+      <point x="-218.0" y="38.75" />
+      <point x="-94.18477328614296" y="-91.20535652790153" />
+    </edge>
+  </edges>
+  <settings layout="계층" zoom="0.9165751920965971" showDependencies="false" x="126.5" y="252.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>메서드</Category>
+    <Category>필드</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

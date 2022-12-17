@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hf.dp.state.HasQuarterState</OriginalElement>
+  <nodes>
+    <node x="-600.4560875957729" y="-136.94448598220322">hf.dp.state.SoldState</node>
+    <node x="-281.96436336524823" y="-136.94448598220322">hf.dp.state.SoldOutState</node>
+    <node x="-985.3540618262977" y="550.7515274986656">hf.dp.state.WinnerState</node>
+    <node x="-327.15093682629765" y="138.9077774986656">hf.dp.state.GumballMachineTestDrive</node>
+    <node x="-839.9478118262975" y="-136.94448598220322">hf.dp.state.State</node>
+    <node x="-985.3540618262975" y="53.287518511419705">hf.dp.state.HasQuarterState</node>
+    <node x="-985.3540618262977" y="313.51952300504263">hf.dp.state.NoQuarterState</node>
+    <node x="-600.4560875957729" y="138.9077774986656">hf.dp.state.GumballMachine</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="hf.dp.state.HasQuarterState" target="hf.dp.state.State" relationship="REALIZATION">
+      <point x="88.54546807629822" y="44.96248148858018" />
+      <point x="-780.3085937499993" y="69.99064351141976" />
+      <point x="-1043.2914687499997" y="69.99064351141976" />
+      <point x="-1043.2914687499997" y="-6.999999999999915" />
+      <point x="68.57671807629822" y="56.444485982203304" />
+    </edge>
+    <edge source="hf.dp.state.SoldState" target="hf.dp.state.State" relationship="REALIZATION">
+      <point x="116.49991894498359" y="-60.744736189641934" />
+      <point x="-547.5813683156567" y="-100.68922217184516" />
+      <point x="-547.5813683156567" y="-121.37500000000003" />
+      <point x="80.29546807629822" y="-57.93051401779681" />
+    </edge>
+    <edge source="hf.dp.state.NoQuarterState" target="hf.dp.state.State" relationship="REALIZATION">
+      <point x="4.5696080610468925E-4" y="96.99982405557114" />
+      <point x="-868.8536048654915" y="331.88883606392346" />
+      <point x="-1083.994946959768" y="331.88883606392346" />
+      <point x="-1083.994946959768" y="-43.25000000000003" />
+      <point x="58.81109307629822" y="20.19448598220319" />
+    </edge>
+    <edge source="hf.dp.state.WinnerState" target="hf.dp.state.State" relationship="REALIZATION">
+      <point x="104.17046807629833" y="-79.67340249866584" />
+      <point x="-1132.4335937499995" y="568.0781249999998" />
+      <point x="-1132.4335937499995" y="-80.35937500000003" />
+      <point x="76.38921807629822" y="-16.91488901779681" />
+    </edge>
+    <edge source="hf.dp.state.SoldOutState" target="hf.dp.state.State" relationship="REALIZATION">
+      <point x="-112.89110538475109" y="-82.08848618964197" />
+      <point x="-304.26858759577294" y="-122.03297217184519" />
+      <point x="-304.26858759577294" y="-188.56522924176875" />
+      <point x="-709.9960937499993" y="-188.56522924176875" />
+      <point x="52.95171807629822" y="-77.46176401779681" />
+    </edge>
+  </edges>
+  <settings layout="계층" zoom="0.5513626834381551" showDependencies="false" x="-1285.1425855513307" y="278.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>메서드</Category>
+    <Category>필드</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

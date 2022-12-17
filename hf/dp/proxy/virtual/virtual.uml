@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hf.dp.proxy.virtual.ImageProxyTestDrive</OriginalElement>
+  <nodes>
+    <node x="332.0428084021463" y="118.88729157613159">hf.dp.proxy.virtual.ImageProxyTestDrive</node>
+    <node x="8.361064842715564" y="313.8872915761316">hf.dp.proxy.virtual.ImageComponent</node>
+    <node x="-63.638935157284436" y="-10.180478310757906">hf.dp.proxy.virtual.ImageProxy</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="계층" zoom="1.0" showDependencies="false" x="249.0" y="226.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>메서드</Category>
+    <Category>생성자</Category>
+    <Category>필드</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
